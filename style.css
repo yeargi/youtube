@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header{
+    align-items: center;
+    display: flex;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left:32px;
+padding-right:70px;
+margin-bottom: 30px;
+}
+.logo{
+    margin-right:59px;
+}
+.menu-button{
+    margin-right:28px;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:20px;
+    height:17px;
+    border:none;
+    cursor: pointer;
+}
+.menu-line{
+    border-radius: 20px;
+    background: #1F2022;
+    display: block;
+    width: 20px;
+    height: 3px;
+}
+
+.input-group{
+    padding-right: 17px;
+    align-items: center;
+    border-radius: 22px;
+    background: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    max-width: 830px;
+    width:50%;
+}
+.input-search{
+    background: transparent;
+    border:none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+    width:100%;
+}
+.button-search{
+    padding: 5;
+    width:19px;
+    height:19px;
+    border:none;
+    border-color: transparent;
+    cursor: pointer;
+}
+.icon-search{
+    fill:#000;
+}
+.icons{
+    display:flex;
+    align-items: center;
+    margin-left:auto;
+}
+
+.icons-link{
+    text-decoration: none;
+opacity:0.3;
+
+}
+.icons-link:hover{
+    opacity:0.9;
+}
+.icons-link:not(:last-child){
+    margin-right: 50px;
+}
+.user{
+    margin-left: 45px;
+}
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.nav-menu{
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 0;
+    list-style-type: none;
+
+}
+.sidebar{
+    padding-left: 32px;
+}
+.nav-item{
+    margin-bottom: 28px;
+   
+}
+.nav-link{
+   color:#898989;
+   text-decoration:none;
+   display: flex;
+    align-items: center;
+}
+.nav-link:hover{
+    color:#FF0000;
+}
+.nav-link:hover .icon{
+    fill:#FF0000;
+}
+
+.nav-item .icon{
+    fill: #898989;
+}
+.nav-text{
+    margin-left: 13px;
+}
+.nav-image{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+.nav-title{
+    font-family: Mulish;
+margin-bottom: 30px;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+}
